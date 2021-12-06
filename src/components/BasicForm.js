@@ -2,6 +2,7 @@ import useInput from "./../hooks/use-input";
 const BasicForm = (props) => {
   
   const isNotEmpty = (value) => value.trim() !== "";
+  debugger
   const isEmail = (value) => value.includes("@");
 
   const {
